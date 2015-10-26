@@ -1,3 +1,7 @@
+# WIP
+
+**Note that the project is in very early stage of development. It is still not ready for usage but you can give it a try and share your feedback.**
+
 # Angular2 Hot Loader
 
 Hot loader for Angular 2, inspired by [react-hot-loader](https://github.com/gaearon/react-hot-loader).
