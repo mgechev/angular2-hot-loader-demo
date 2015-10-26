@@ -22,6 +22,7 @@ var ComponentProxy = function (component: Type) {
 
   let current;
 
+  // TODO(mgechev) Update it further
   function updatePrototype(component, current) {
     let currentProto = current.prototype;
     let newProto = component.prototype;
@@ -78,6 +79,7 @@ var ComponentProxy = function (component: Type) {
         console.log('Running change detection');
         console.log('-------------------------');
         clearInterval(cdInterval);
+        // TODO(mgechev) Super dirty hack. Needs to be fixed.
         cdInterval = setInterval(_ => {
           let view = internalView(ref.hostView);
           visited = new Map();
